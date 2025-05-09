@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://sql.freedb.tech:3306/freedb_flutter
     username: 'freedb_nguyencaoky11'
-    password: '?nStK%WZwXEm58R'
+    password: 'xbyU&yfz3XpQ6f?'
 
   jpa:
     properties:
