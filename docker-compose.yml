@@ -6,8 +6,8 @@ services:
     restart: always
     environment:
       SPRING_DATASOURCE_URL: "jdbc:mysql://sql.freedb.tech:3306/freedb_flutter"
-      SPRING_DATASOURCE_USERNAME: "freedb_nguyencaoky"
-      SPRING_DATASOURCE_PASSWORD: "cdz$$52#98?cfPE"
+      SPRING_DATASOURCE_USERNAME: "freedb_nguyencaoky11"
+      SPRING_DATASOURCE_PASSWORD: "?nStK%WZwXEm58R"
 
       
       
