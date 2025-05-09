@@ -9,7 +9,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: 'jdbc:mysql://sql.freedb.tech:3306/freedb_flutter'
       SPRING_DATASOURCE_USERNAME: 'freedb_nguyencaoky11'
-      SPRING_DATASOURCE_PASSWORD: '?nStK%WZwXEm58R'
+      SPRING_DATASOURCE_PASSWORD: 'xbyU&yfz3XpQ6f?'
 
       
       
