@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://sql.freedb.tech:3306/freedb_flutter
-    username: freedb_nguyencaoky17
-    password: xbyU&yfz3XpQ6f?
+    url: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test?useSSL=true&requireSSL=true&verifyServerCertificate=true&trustCertificateKeyStoreUrl=file:/etc/ssl/cert.pem
+    username: 3AHrjpqYSshHyUV.root
+    password: tSk2pkgMIoM3QbkH
 
   jpa:
     properties:
