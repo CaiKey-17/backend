@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test
-    username: 3AHrjpqYSshHyUV.root
-    password: tSk2pkgMIoM3QbkH
+    url: jdbc:mysql://flutter.cmnco2is8n58.us-east-1.rds.amazonaws.com:3306/flutter
+    username: admin
+    password: Nck250621
 
   jpa:
     properties:
