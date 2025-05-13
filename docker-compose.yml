@@ -5,7 +5,7 @@ services:
     build: .
     restart: always
     environment:
-      SPRING_DATASOURCE_URL: 'jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test?sslMode=VERIFY_IDENTITY&enabledTLSProtocols=TLSv1.2'
+      SPRING_DATASOURCE_URL: 'jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test'
       SPRING_DATASOURCE_USERNAME: '3AHrjpqYSshHyUV.root'
       SPRING_DATASOURCE_PASSWORD: 'tSk2pkgMIoM3QbkH'  
 
