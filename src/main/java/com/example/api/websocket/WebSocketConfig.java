@@ -16,10 +16,11 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         config.setApplicationDestinationPrefixes("/app");
     }
 
-    @Override
-    public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/ws").setAllowedOrigins("http://localhost:8080", 
-                               "http://192.168.70.182:8080", 
-                               "https://backend-839a.onrender.com").withSockJS();
-    }
+   @Override
+public void registerStompEndpoints(StompEndpointRegistry registry) {
+    registry.addEndpoint("/ws")
+            .setAllowedOriginPatterns("*") 
+            .withSockJS();
+}
+
 }
