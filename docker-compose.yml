@@ -5,9 +5,9 @@ services:
     build: .
     restart: always
     environment:
-      SPRING_DATASOURCE_URL: 'jdbc:mysql://gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test'
-      SPRING_DATASOURCE_USERNAME: '3AHrjpqYSshHyUV.root'
-      SPRING_DATASOURCE_PASSWORD: 'tSk2pkgMIoM3QbkH'  
+      SPRING_DATASOURCE_URL: 'jdbc:mysql://flutter.cmnco2is8n58.us-east-1.rds.amazonaws.com:3306/flutter'
+      SPRING_DATASOURCE_USERNAME: 'admin'
+      SPRING_DATASOURCE_PASSWORD: 'Nck250621'  
 
       SPRING_JPA_HIBERNATE_DDL_AUTO: "update"
 
