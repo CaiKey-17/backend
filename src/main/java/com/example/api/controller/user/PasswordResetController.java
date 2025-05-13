@@ -34,7 +34,10 @@ public class PasswordResetController {
         String token = UUID.randomUUID().toString();
         userService.savePasswordResetToken(user, token);
 
-        String resetLink = "http://"+IP_network+":8080/api/auth/reset-password?token=" + token;
+        // String resetLink = "http://"+IP_network+":8080/api/auth/reset-password?token=" + token;
+        String resetLink = IP_network + "/api/auth/reset-password?token=" + token;
+
+        
 
         emailService.sendEmail(email, "Đặt lại mật khẩu", "Nhấp vào liên kết sau để đặt lại mật khẩu: " + resetLink);
 
