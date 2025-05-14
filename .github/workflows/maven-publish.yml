@@ -28,3 +28,4 @@ jobs:
     - name: Execute Jar file
       run: |
         sudo java -jar /home/ubuntu/actions-runner/_work/backend/backend/target/api-0.0.1-SNAPSHOT.jar
+ 
